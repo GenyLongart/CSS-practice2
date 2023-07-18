@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQemaxiSbMu1aL4OG8jGKDBJJ7erVSsIKW6pw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.view{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    height: 600px;
+    width: 450px;
+    background: white;
+    margin: auto;
+    box-shadow: -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.container .upper{
+    height: 50%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://st.depositphotos.com/1065578/1364/v/600/depositphotos_13646878-stock-illustration-blue-smooth-wave-template.jpg");
+
+}
+.card-text{
+    width: 70%;
+    height: 80%;
+}
+.card-text h1{
+    margin: 0;
+}
+.card-text .thinner{
+    font-weight: lighter;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.bottom{
+    height: 50%;
+    width: 100%;
+}
+.botton-content{
+    width: 100%;
+    height: 75%;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.login-title{
+    color:rgb(33, 33, 151);
+    text-align: center;
+}
+.bottom-btns{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+}
+.btn{
+    height: 20%;
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+    display: flex;
+    align-items: center;padding-left: 15px;
+    border-radius: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,81,186,1) 0%, rgba(9,220,232,1) 100%);
+}
+.btn-txt{
+    font-size: small;
+    padding-left: 20%;
+}
+.preferences {
+    color:rgb(30, 156, 156);
+    display: flex;
+    padding: 0px 50px 0px 50px;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.login-btn{
+    width: 20%;
+    height: 10%;
+    background-color: rgb(6, 6, 156);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+footer{
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+.s-bolder{
+    font-weight: bolder;
+}
